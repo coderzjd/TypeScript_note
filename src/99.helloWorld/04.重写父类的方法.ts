@@ -14,6 +14,7 @@ class Sty extends Person {
     this.Sno = Sno
   }
   run() {
+    // 通过super关键字调用父类的方法
     super.run()
     console.log(`${this.name} 在子类的方法中跑步`)
   }
