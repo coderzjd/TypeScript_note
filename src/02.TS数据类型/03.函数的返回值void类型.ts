@@ -3,9 +3,11 @@ function fooA(num: number): void {}
 
 // 可以将null 和 undefined 赋值给void
 function foo(num: number): void {
-  return null
+  // return null
 }
 function bar(str: string): void {
   return undefined
 }
+
+fun
 export {}

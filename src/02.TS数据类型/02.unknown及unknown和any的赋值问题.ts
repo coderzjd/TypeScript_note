@@ -6,7 +6,12 @@ if (flag) {
 } else {
   msg = '111222222222222'
 }
-console.log(msg)
+// unknown防止滥用，直接使用都是不合法的
+// console.log(msg.length)
+if (typeof msg === 'string') {
+  // 类型缩小
+  console.log(msg.length)
+}
 // unknown类型只能赋值给unknown或者any类型
 let msgA: unknown
 let msgB: any

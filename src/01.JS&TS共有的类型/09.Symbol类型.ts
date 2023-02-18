@@ -5,4 +5,10 @@ const info = {
   [title2]: 'human',
   title: 'aaa',
 }
+const info2 = {
+  [Symbol('title')]: 1,
+  [Symbol('title')]: 2,
+}
+console.log(info2);
+
 export {}
