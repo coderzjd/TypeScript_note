@@ -2,6 +2,7 @@
 // 类型推导为 el: HTMLElement
 // <img id='id/>
 const el = document.getElementById('id') as HTMLImageElement
+
 // 类型断言进行确定具体类型
 el.src = '111'
 

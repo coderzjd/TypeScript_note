@@ -9,4 +9,9 @@ function logMsg(msg?: string): void {
 }
 logMsg()
 logMsg('22')
+
+// const imgEl: HTMLImageElement | null
+// const imgEl = document.querySelector('img')
+// console.log(imgEl?.src);
+// console.log(imgEl!.src);
 export {}
