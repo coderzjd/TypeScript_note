@@ -9,6 +9,12 @@ function foo(id?: any): void {
   console.log(id ? id : '不存在')
   console.log(id ?? '不存在')
   console.log(id || '不存在')
+  console.log('-------');
+  
 }
 foo()
+foo(false)
+foo(null)
+foo(undefined)
+
 export {}

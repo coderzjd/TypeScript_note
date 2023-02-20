@@ -16,4 +16,15 @@ const info2: Info = obj
 console.log(info2)
 // 擦除操作后，没有age属性，无法使用
 // console.log(info2.age)
+
+
+type fnType = (num: number, num2: number) => number
+function calc(fn: fnType) {
+  const n1 = 10
+  const n2 = 20
+  fn(n1, n2)
+}
+calc((n1, n2) => n1 + n2)
+// calc((n1) => n1):此时不对函数参数个数做校验
+calc((n1) => n1)
 export {}
