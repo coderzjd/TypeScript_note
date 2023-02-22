@@ -19,11 +19,5 @@ barA(fooA)
 const arr = [1, 2, 3]
 arr.forEach((item, index, arr) => {})
 
-// 指定函数中不确定参数个数时类型
-function gpp(...arg: number[]) {
-  console.log(arg)
-}
-gpp(1)
-gpp(1, 2)
-// gpp(1, '2')
+
 export {}
