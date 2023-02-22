@@ -12,3 +12,5 @@ function foo(a: ObjType) {
   console.log(a.age)
 }
 let methodTwo = foo({ color: 'red', age: 100 })
+
+export {}
