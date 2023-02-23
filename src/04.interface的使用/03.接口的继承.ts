@@ -1,3 +1,4 @@
+// 1.对于第三方库文件的接口进行拓展
 interface Ifoo {
   foo: () => void
 }
