@@ -1,5 +1,5 @@
 // TS类型检测弱类型和JAVA不一样
-// 图灵测试
+// TS是图灵完备的
 // 如果一个事物看起来像A,闻起来像A,摸起来像A,那么这个事物就是A类型
 class Person {
   constructor(public name: string, public age: number) {}
