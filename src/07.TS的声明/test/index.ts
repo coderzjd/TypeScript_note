@@ -1,20 +1,5 @@
-// 1.使用type关键字声明类型
-// 告诉webpack及编译工具解析规则
-import { type IName, getName } from './name'
-import type { IPerson, IPerson2 } from './person'
-const name: IName = {
-  firstName: '张',
-  lastName: '三',
-}
-console.log(getName(name))
-
-const p1: IPerson = {
-  name: '李四',
-  age: 18,
-  firends: ['张三', '王五'],
-}
-const p2: IPerson2 = {
-  name: '王五',
-  age: 18,
-  firends: [1, 2, 3],
-}
+// TS的声明类型
+// 1.内置类型声明(JS原生：Promise):TS自带的
+// 2.外部定义类型声明 (axios库)
+// 3.自定义类型声明
+// const d1: Document = document.querySelector('.a')

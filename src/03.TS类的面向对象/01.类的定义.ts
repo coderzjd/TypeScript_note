@@ -2,7 +2,7 @@ class Person {
   name: string
   age: number
   // 属性“width”没有初始化表达式，且未在构造函数中明确赋值。
-  width: number
+  width!: number
   // !为非空断言（可能引发bug）
   height!: number
   constructor(name: string, age: number) {
