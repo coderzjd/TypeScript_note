@@ -21,7 +21,7 @@ declare module '*.jpg'
 declare module '*.png'
 declare module '*.txt'
 
-// 4.声明命名空间
+// 4.声明命名空间$
 declare namespace $ {
   export function foo(): void
 }
